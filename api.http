@@ -1,0 +1,21 @@
+### Create a new user
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "nOK",
+  "password": "password123"
+}
+
+### Update an existing user
+PUT http://localhost:3000/users/5
+Content-Type: application/json
+
+{
+  "username": "Pickp fucker",
+  "password": "password123"
+}
+
+### Delete a user
+DELETE http://localhost:3000/users/5
+Content-Type: application/json
